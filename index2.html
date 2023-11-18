@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple table</title>
+</head>
+<style>
+    h1{
+    color:rgb(249, 223, 171);
+    text-align: center;
+    }
+
+    body{
+    background-image: url(background.jpg);
+    }
+
+    table{
+        padding: 15px;
+        background-color: rgba(221, 175, 249, 0.853);
+    }
+
+    table tr{
+        background-color: rgba(242, 244, 215, 0.7);
+        color:rgb(136, 28, 136);
+    }
+
+    table{
+        margin: 40px auto;
+    }
+
+    form{
+        padding: 15px;
+        background-color: rgba(242, 244, 215, 0.7);
+    }
+
+    fieldset{
+        margin: auto;
+        width: 70%;
+    }
+
+    .done{
+        margin-left: 210px;
+    }
+
+    
+
+</style>
+<body>
+    <h1 style="text-align: center;">HCI ASSIGNMENT-02</h1>
+
+    <table border="4" width="1000">
+        
+        <tr>
+            <th class="heading">Nail</th>
+            <th colspan="2" class="heading">Type of treatments</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td rowspan="4" class="Manicure">Manicure</td>
+            <td rowspan="2" class="Classic">Classic</td> 
+            <td>Gel Polish</td>
+            <td>Rp. 150.000</td>
+            
+        </tr>
+
+        <tr>
+            <td>Premium Gel Polish</td>
+            <td>Rp. 175.000</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="Express">Express</td>
+            <td>Gel Polish</td>
+            <td>Rp. 130.000</td>
+        </tr>
+
+        <tr>
+            <td>Premium Gel Polish</td>
+            <td>Rp. 160.000</td>
+        </tr>
+
+
+
+        <tr>
+            <td rowspan="4" class="Pedicure">Pedicure</td>
+            <td rowspan="2" class="Classic">Classic</td> 
+            <td>Gel Polish</td>
+            <td>Rp. 120.000</td>
+            
+        </tr>
+
+        <tr>
+            <td>Premium Gel Polish</td>
+            <td>Rp. 145.000</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="Express">Express</td>
+            <td>Gel Polish</td>
+            <td>Rp. 110.000</td>
+        </tr>
+
+        <tr>
+            <td>Premium Gel Polish</td>
+            <td>Rp. 145.000</td>
+        </tr>
+        
+    </table>
+
+    <form>
+        <Fieldset>
+            <label for="Which treatmeant would you like?">Which treatmeant would you like?</label>
+            <br>
+            <input type="checkbox"> Manicure, Classic, Gel Polish 
+            <br>
+            <input type="checkbox"> Manicure, Classic, Premium Gel Polish 
+            <br>
+            <input type="checkbox"> Manicure, Express, Gel Polish 
+            <br>
+            <input type="checkbox"> Manicure, Express, Premium Gel Polish 
+            <br>
+            <input type="checkbox"> Pedicure, Classic, Gel Polish 
+            <br>
+            <input type="checkbox"> Pedicure, Classic, Premium Gel Polish 
+            <br>
+            <input type="checkbox"> Pedicure, Express, Gel Polish 
+            <br>
+            <input type="checkbox"> Pedicure, Express, Premium Gel Polish 
+        </Fieldset>
+    </form>
+
+    <a href="index3.html" class="done">
+        <button>I'm done with my order!</button>
+    </a>
+
+</body>
+</html>
